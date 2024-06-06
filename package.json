@@ -1,0 +1,40 @@
+{
+  "name": "rutaskonrad",
+  "version": "1.0.0",
+  "description": "Proyecto con la libreria leaflet y typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel ./index.html --open",
+    "build": "npx parcel build index.html --public-url '.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvonneSierra/RutasKonrad.git"
+  },
+  "keywords": [
+    "leafleat",
+    "typescript",
+    "maps",
+    "geojason",
+    "marker"
+  ],
+  "author": "Ivonne Sierra, Andrea Cubillos y Santiago Lozano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvonneSierra/RutasKonrad/issues"
+  },
+  "homepage": "https://github.com/IvonneSierra/RutasKonrad#readme",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/leaflet-routing-machine": "^3.2.8",
+    "parcel-bundler": "^1.12.5"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
